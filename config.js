@@ -1,1 +1,1 @@
-console.log("this is 3");
+console.log("this is 1st config file");
