@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="text-center">
+    <h1 class="text-3xl text-red-300">static--absolute</h1>
+    <div class="static text-left p-2  m-2 bg-green-200 h-48">
+        <p class="font-bold">static parent</p>
+
+        <div class="absolute bottom-0 left-0 p-2 bg-green-500">Absolute child</div>
+    </div>
+
+      <h1 class="text-3xl text-red-300">fixed</h1>
+      <p>This fixed one be fixed to the position of the view port</p>
+      <div class="fixed p-2 bg-green-200">fixed one</div>
+
+         <h1 class="text-3xl text-red-300 mt-10">absolute</h1>
+        <div class="static bg-green-200 text-left p-2 m-2 h-48">
+            <p class="font-bold">Static parent</p>
+
+            <div class="absolute bottom-8 left-0 p-2">
+                <p class="bg-red-300 p-2">Absoute child</p>
+            </div>
+        </div>
+      
+</body>
+</html>
